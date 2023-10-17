@@ -1,10 +1,8 @@
 Post 
 
 {
-  "id": 1,
   "name": "Wagner",
   "account": {
-    "id": 1,
     "number": "01.097954-4",
     "agency": "2030",
     "balance": 624.12,
@@ -47,4 +45,39 @@ Post
   ]
 }
 
+======================================================================================================================
+
+{
+  "name": "Wagner",
+  "account": {
+    "id": 1,
+    "number": "00000000-0",
+    "agency": "0000",
+    "balance": 1324.64,
+    "limit": 1000.00
+  },
+  "features": [
+    {"icon": "URL",
+      "description": "Descriçao da Feature!"
+    }
+  ],
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 1000.00
+  },
+  "news": [
+    {
+      "icon": "URL",
+      "description": "Descriçao da Novidade!"
+    }
+  ]
+}
+
+======================================================================================================================
+1 - Criado endpoint para health Check
+    retorna status da aplicação com ip e maquina de execução
+
+2 - Subistituição dos Get e Set para Lombock
+
+3 - Atribuir valor no properties para caso não exista a variavel.
 
