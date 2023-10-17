@@ -1,0 +1,83 @@
+Post 
+
+{
+  "name": "Wagner",
+  "account": {
+    "number": "01.097954-4",
+    "agency": "2030",
+    "balance": 624.12,
+    "limit": 1000.00
+  },
+  "card": {
+    "number": "xxxx xxxx xxxx 1111",
+    "limit": 2000.00
+  },
+  "features": [
+    {"icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/pix.svg",
+      "description": "PIX"
+    },
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/pay.svg",
+      "description": "Pagar"
+    },
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/transfer.svg",
+      "description": "Transferir"
+    },
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/account.svg",
+      "description": "Conta Corrente"
+    },
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/cards.svg",
+      "description": "Cartões"
+    }
+  ],
+  "news": [
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/insurance.svg",
+      "description": "Santander Seguro Casa, seu faz-tudo. Mais de 50 serviços pra você. Confira!"
+    },
+    {
+      "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+      "description": "O Santander tem soluções de crédito sob medida pra você. Confira!"
+    }
+  ]
+}
+
+======================================================================================================================
+
+{
+  "name": "Wagner",
+  "account": {
+    "id": 1,
+    "number": "00000000-0",
+    "agency": "0000",
+    "balance": 1324.64,
+    "limit": 1000.00
+  },
+  "features": [
+    {"icon": "URL",
+      "description": "Descriçao da Feature!"
+    }
+  ],
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 1000.00
+  },
+  "news": [
+    {
+      "icon": "URL",
+      "description": "Descriçao da Novidade!"
+    }
+  ]
+}
+
+======================================================================================================================
+1 - Criado endpoint para health Check
+    retorna status da aplicação com ip e maquina de execução
+
+2 - Subistituição dos Get e Set para Lombock
+
+3 - Atribuir valor no properties para caso não exista a variavel.
+

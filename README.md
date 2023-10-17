@@ -1,17 +1,34 @@
-# Santander Dev Week 2023
+#### :dollar: Santander Bootcamp 2023 - Backend Java.
 
-Java RESTful API criada para a Santander Dev Week.
+<ol align="left">
+ <li><strong><a href="#--sobre-o-projeto">Sobre</a></strong></li>
+ <li><strong><a href="#--tecnologias">Tecnologias</a></strong></li>
+ <li><strong><a href="#--aprendizados-back-end">Aprendizados Back-end</a></strong></li>
+</ol>
 
-## Principais Tecnologias
- - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
- - **Spring Boot 3**: Trabalharemos com a mais nova versão do Spring Boot, que maximiza a produtividade do desenvolvedor por meio de sua poderosa premissa de autoconfiguração;
- - **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
- - **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
- - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+🌎 **Projeto:**
 
+<br />
+
+### [](https://github.com/wagnermiyamoto/SantanderDevWeek2023) 🔥 Sobre o projeto
+
+Java RESTful API criada para a Santander Dev Week. em 10/2023.
+
+<br />
+
+## [Link do spring.io](https://start.spring.io/)
 ## [Link do Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421%3A432&mode=design&t=6dPQuerScEQH0zAn-1)
+## [Link do json editor online](https://jsoneditoronline.org/#left=local.colane)
+## [Link do Chat GPT](https://chat.openai.com/auth/login)
+## [Link do mermaid](https://mermaid.js.org/syntax/classDiagram.html)
+## [Link do APP](http://localhost:8080/swagger-ui/index.html)
 
 O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
+
+<br />
+
+### :space_invader: Modelo de dados
+
 
 ## Diagrama de Classes (Domínio da API)
 
@@ -53,10 +70,35 @@ classDiagram
   User "1" *-- "N" News
 ```
 
-## IMPORTANTE
+<br />
 
-Este projeto foi construído com um viés totalmente educacional para a DIO. Por isso, disponibilizamos uma versão mais robusta dele no repositório oficial da DIO:
+### [](https://github.com/wagnermiyamoto/SantanderDevWeek2023) 🤖 Tecnologias
 
-### [digitalinnovationone/santander-dev-week-2023-api](https://github.com/digitalinnovationone/santander-dev-week-2023-api)
+- **Java 17**
+- **Spring Boot**
+- **Hibernate JPA**
+- **H2 Database**
+- **PostgreSQL**
+- **Postman**
+- **intellij idea**
+- **Eclipse**
 
-Lá incluímos todas os endpoints de CRUD, além de aplicar boas práticas (uso de DTOs e refinamento na documentação da OpenAPI). Sendo assim, caso queira um desafio/referência mais completa é só acessar 👊🤩
+### [](https://github.com/wagnermiyamoto/SantanderDevWeek2023) 🎉 Aprendizados Back-end
+
+- Modelo de domínio
+- Acesso a banco de dados
+- Estruturar o back end no padrão camadas
+  - Controllers
+  - Domain
+  - Services
+  - Repositories
+- Criar endpoints da API REST
+
+### [](https://github.com/wagnermiyamoto/SantanderDevWeek2023) 💎 Autor
+
+<a href="">
+ <img style="border-radius: 8px" src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/hv7o3VgfsairBoQFAawgaQ4cR1m.jpg" width="100px;" alt="Wagner Miyamoto"/>
+<br />
+<sub><strong>Wagner Miyamoto</strong></sub></a>
+
+<br />
