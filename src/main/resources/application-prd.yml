@@ -3,10 +3,10 @@ spring:
     platform: postgres
     url: jdbc:postgresql://${PGHOST:localhost}:${PGPORT:5432}/${PGDATABASE:railway}
     username: ${PGUSER:postgres}
-    password: ${PGPASSWORD:postgres}
+    password: ${PGPASSWORD:wagner}
   jpa:
     open-in-view: false
-    show-sql: true
+    show-sql: false
     generate-ddl: true
     database: POSTGRESQL
     hibernate:
